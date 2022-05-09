@@ -1,4 +1,4 @@
-public class Computer extends TangibleAsset{
+public class Maker extends TangibleAsset{
 	private String maker;
 	public Computer(String name,int price,String color,String maker){
 		super(name,price,color);
