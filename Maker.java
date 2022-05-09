@@ -1,6 +1,6 @@
 public class Maker extends TangibleAsset{
 	private String maker;
-	public Computer(String name,int price,String color,String maker){
+	public Maker(String name,int price,String color,String maker){
 		super(name,price,color);
 		this.maker=maker;
 	}
